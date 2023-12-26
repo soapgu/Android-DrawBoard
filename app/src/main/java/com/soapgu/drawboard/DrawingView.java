@@ -89,4 +89,13 @@ public class DrawingView extends View {
     public void setThickness(float thickness) {
         this.thickness = thickness;
     }
+
+    public List<InkStrokeEntity> getStrokes() {
+        return strokes;
+    }
+
+    public void setStrokes(List<InkStrokeEntity> strokes) {
+        this.strokes = strokes;
+        this.invalidate();
+    }
 }
