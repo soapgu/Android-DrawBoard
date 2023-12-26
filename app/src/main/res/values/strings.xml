@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DrawBoard</string>
+    <string name="shift_color">切换颜色</string>
+    <string name="shift_thickness">切换粗细</string>
+</resources>
